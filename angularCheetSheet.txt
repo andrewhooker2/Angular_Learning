@@ -1,0 +1,65 @@
+Starting an angular app? 
+
+ng new --routing --style=scss name-my-site
+
+if you want a minimal angular site do:
+ng new --minimal --routing --style=scss name-my-site
+
+Modules
+=========
+
+These organize your application
+
+
+
+Components
+==================================
+ng generate component name_of_component
+
+--> This will make / add / and do a bunch of boiler plate code for you when making new components 
+
+
+Running your Application in browser
+===================================
+ng serve 
+
+-> it will be at localhost:4200
+
+
+Bulma for style
+==================================
+npm install Bulma
+
+grab the file path form the node_modules directory
+add the path to the angular.json like below 
+
+"styles": [
+    "./node_modules/bulma/css/bulma.css",
+    "src/styles.scss"
+],
+
+
+
+
+===========================================================
+Following a different guide below
+===========================================================
+
+Setting up the site:
+
+ng new --style=scss name-my-site
+( Yes to routing after!! )
+
+
+Adding angular packages first:
+ng add @angular/material
+(Choosing deep purple after )
+
+npm i angular-gauge 
+( This adds gauge to the website visually )
+
+Import them now! (app.module.ts)
+
+
+
+
